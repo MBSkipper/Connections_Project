@@ -1,5 +1,5 @@
-#*Connections Project*#
-##A Codecademy Bootcamp Project##
+#**Connections Project**#
+##**A Codecademy Bootcamp Project**##
 ###The objectives of this project were to:###
 1. Develop a simple social media app
 2. Use Bootstrap to design the webpages
