@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--------------Bootstrap link---------------->
+    <!------------must be before CSS link----------->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!--------------ICON SECTION----------------->
+    <!--------------CSS link---------------->
+    <!----------- must be after Bootstrap link----------->
+    <link rel="stylesheet" href="index.css">
+
+    <!------------Icon link (note local file path)------------->
     <link rel="icon" href="Assets/image.png">
     
     <title>ConnectUp</title>
@@ -53,8 +60,15 @@
         </div>
     </nav>
 
-<!--------------TITLE OF PAGE SECTION----------------->
-<h1>ConnectUp</h1>
+    <!--------------MAIN SECTION----------------->
+    <div class="container text-center mt-5">
+        <div class="custom-header rounded-4 p-4">
+            <img src="Assets/image.png" alt="logo" width="60" height="60">
+            <h1 class="display-2 fw-semibold">ConnectUp</h1>
+            <p class="lead fs-3">A smarter way to connect, collaborate, and share your story.</p>
+            <p class="lead fs-5 mt-5">Snap it. Share it. Live it. Your world, your way.</p>
+        </div>
+    </div>
 
 <!--------------SECTION----------------->
 
@@ -67,7 +81,7 @@
 
 
 
-<!--BOOTSTRAP SCRIPT TAGS BELOW-->
+<!--BOOTSTRAP SCRIPT LINKING TAGS BELOW-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
