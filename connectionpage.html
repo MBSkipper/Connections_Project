@@ -64,6 +64,28 @@
     <!--------------MAIN SECTION----------------->
     <div class="container mt-3">
         <h1 class="display-4">Connections</h1>
+
+        <!---->
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#friend-request" role="tab" aria-controls="list-home">Friend requests</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#suggestions" role="tab" aria-controls="list-profile">Suggestions</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#all-friends" role="tab" aria-controls="list-messages">All Friends</a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="friend-request" role="tabpanel" aria-labelledby="list-home-list">Friend requests
+                </div>
+
+                <div class="tab-pane fade" id="suggestions" role="tabpanel" aria-labelledby="list-profile-list">Suggestions</div>
+                <div class="tab-pane fade" id="all-friends" role="tabpanel" aria-labelledby="list-messages-list">All Friends</div>
+                </div>
+            </div>
+        </div>
+        <!---->
     </div>
 
 
