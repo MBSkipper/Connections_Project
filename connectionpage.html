@@ -82,13 +82,18 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/5-image.jpg" class="img-fluid rounded-start w-100" >
                                 </div>
                                     <div class="col-md-8">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <h5 class="card-title">James Bailey</h5>
+                                                <p class="card-text lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                            </div>
+
+                                        <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
                                     </div>
                                 </div>
                             </div>
