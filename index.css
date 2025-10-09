@@ -6,6 +6,23 @@ background: linear-gradient(0deg,rgba(242, 162, 136, 1) 0%, rgba(126, 223, 242, 
 
 @media screen and (max-width: 768px) {
     #category-section {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .friend-card {
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .friend-card img {
+        width: 100px !important;
+        border-radius: 50% !important;
+        display: block;
+        margin: auto;
+
+    }
+
+    .friend-card .friend-name {
+        flex-direction: column;
     }
 }
