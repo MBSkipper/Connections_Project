@@ -12,6 +12,8 @@ background: linear-gradient(0deg,rgba(242, 162, 136, 1) 0%, rgba(126, 223, 242, 
     .friend-card {
         text-align: center;
         padding-top: 1em;
+        margin: auto;
+        max-width: 300px;
     }
 
     .friend-card img {
@@ -24,5 +26,10 @@ background: linear-gradient(0deg,rgba(242, 162, 136, 1) 0%, rgba(126, 223, 242, 
 
     .friend-card .friend-name {
         flex-direction: column;
+    }
+
+    .friend-card .card-text {
+        padding-bottom: 1em;
+
     }
 }
