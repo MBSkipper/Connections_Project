@@ -75,7 +75,7 @@
                 </div>
             </div>
 
-            <!---------- List of all friend cards (#display-section)-------------------->
+            <!---------- FRIEND REQUESTS SECTION List of all friend cards (#display-section)-------------------->
             <div class="col-md-8 col-xs-12" id="display-section">
                 <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="friend-request" role="tabpanel"      aria-labelledby="list-home-list">
@@ -159,6 +159,157 @@
                                 <div class="col-md-4">
                                     <!--Photo. image -->
                                     <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/1-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name) --------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">William Macey</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">3d ago</small></p>
+                                                </div>
+
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6"> Aspernatur atque accusantium voluptatum ea animi, qui, consectetur optio aut officia, numquam rem nulla.</p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                            <!--(para was in this space here)-->
+
+                                            <!--
+                                            <p class="card-text"><small class="text-body-secondary">1d ago</small></p> -->
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3rd card ends here -->
+                </div>
+
+
+                <!---------- SUGGESTIONS SECTION List of all suggestion cards-------------------->
+
+                <div class="tab-pane fade" id="suggestions" role="tabpanel" aria-labelledby="list-profile-list">
+
+                    <!----------- 1st card here-->
+                    <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/10-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name)--------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">Charles Harris</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
+                                                </div>
+
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6">Magnam illum possimus commodi tenetur odio laudantium ab nobis. In eius a ut repudiandae nam ipsam aliquid.</p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                            <!--(para was in this space here)-->
+
+                                            <!--
+                                            <p class="card-text"><small class="text-body-secondary">1d ago</small></p> -->
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!----------- 1st card ends here-->
+                </div>
+
+                <!---------- ALL FRIENDS SECTION List of all friend cards-------------------->
+
+                <div class="tab-pane fade" id="all-friends" role="tabpanel" aria-labelledby="list-messages-list">All Friends
+
+                    <!----------- 1st card here-->
+                    <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/3-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name)--------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">Miranda Evans</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
+                                                </div>
+
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6">Magnam illum possimus commodi tenetur odio laudantium ab nobis. In eius a ut repudiandae nam ipsam aliquid.</p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                           
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!----------- 1st card ends here-->
+
+                    <!----------- 2nd card here-->
+                    <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/4-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name)--------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">Barry Lindcroft</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
+                                                </div>
+
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6">Magnam illum possimus commodi tenetur odio laudantium ab nobis. In eius a ut repudiandae nam ipsam aliquid.</p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                           
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!----------- 2nd card ends here-->
+
+                    <!---- 3rd card here (.friend-card)--->
+                        <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
                                     <img src="https://reqres.in/img/faces/2-image.jpg" class="img-fluid rounded-start w-100" >
                                 </div>
                                     <div class="col-md-8">
@@ -189,26 +340,27 @@
                         </div>
                         <!-- 3rd card ends here -->
 
-                        <!---- 4th card here (.friend-card)--->
+                    <!---- 4th card here (.friend-card)--->
                         <div class="card mb-3 friend-card" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
+
                                     <!--Photo. image -->
                                     <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
-                                    <img src="https://reqres.in/img/faces/1-image.jpg" class="img-fluid rounded-start w-100" >
+                                    <img src="https://reqres.in/img/faces/6-image.jpg" class="img-fluid rounded-start w-100" >
                                 </div>
                                     <div class="col-md-8">
                                         <!--note header and text in same div styled to ensure the content is at the top of the card-->
                                         <div class="card-body d-flex flex-column justify-content-between h-100" >
                                             <div>
-                                                <!--------- friend name class (.friend-name) --------------->
+                                                <!--------- friend name class (.friend-name)--------------->
                                                 <div class="d-flex justify-content-between friend-name">
-                                                    <h5 class="card-title">William Macey</h5>
-                                                    <p class="card-text"><small class="text-body-secondary">3d ago</small></p>
+                                                    <h5 class="card-title">Eddie Smith</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
                                                 </div>
 
                                                 <!--------- card text class (.card-text)--------------->
-                                                <p class="card-text lead fs-6"> Aspernatur atque accusantium voluptatum ea animi, qui, consectetur optio aut officia, numquam rem nulla.</p>
+                                                <p class="card-text lead fs-6">Tenetur pariatur possimus rem voluptatem ipsa sunt quaerat deleniti. Nobis autem omnis culpa incidunt labores.</p>
                                             </div>
                                             <div> <!--buttons here-->
                                                 <button type="button" class="btn btn-primary">Confirm</button>
@@ -225,18 +377,85 @@
                         </div>
                         <!-- 4th card ends here -->
 
+                    <!---- 5th card here (.friend-card)--->
+                        <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
 
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/8-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name)--------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">Oliver Underwood</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
+                                                </div>
 
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6">Quibusdam eius eos deserunt ea inventore odit dignissimos maiores beatae dolorem expedita eveniet nisi. Numquam voluptate unde sapiente error hic eveniet necessitatibus voluptatibus. </p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                            <!--(para was in this space here)-->
 
+                                            <!--
+                                            <p class="card-text"><small class="text-body-secondary">1d ago</small></p> -->
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5th card ends here -->
 
+                    <!---- 6th card here (.friend-card)--->
+                        <div class="card mb-3 friend-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+
+                                    <!--Photo. image -->
+                                    <!--note below image is from a link and in class=img-fluid...remove alt property and include w-100 (width 100%) so the img fills card to bottom on left-->
+                                    <img src="https://reqres.in/img/faces/9-image.jpg" class="img-fluid rounded-start w-100" >
+                                </div>
+                                    <div class="col-md-8">
+                                        <!--note header and text in same div styled to ensure the content is at the top of the card-->
+                                        <div class="card-body d-flex flex-column justify-content-between h-100" >
+                                            <div>
+                                                <!--------- friend name class (.friend-name)--------------->
+                                                <div class="d-flex justify-content-between friend-name">
+                                                    <h5 class="card-title">Damien El-Haddy</h5>
+                                                    <p class="card-text"><small class="text-body-secondary">1d ago</small></p>
+                                                </div>
+
+                                                <!--------- card text class (.card-text)--------------->
+                                                <p class="card-text lead fs-6">Nostrum pariatur accusamus magnam amet odio temporibus corporis, mollitia officiis veritatis, quam tempora, nobis qui impedit laudantium.</p>
+                                            </div>
+                                            <div> <!--buttons here-->
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                                <button type="button" class="btn btn-secondary">Reject</button>
+                                            </div>
+                                            <!--(para was in this space here)-->
+
+                                            <!--
+                                            <p class="card-text"><small class="text-body-secondary">1d ago</small></p> -->
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6th card ends here -->
 
 
 
 
                 </div>
 
-                <div class="tab-pane fade" id="suggestions" role="tabpanel" aria-labelledby="list-profile-list">Suggestions</div>
-                <div class="tab-pane fade" id="all-friends" role="tabpanel" aria-labelledby="list-messages-list">All Friends</div>
                 </div>
             </div>
         </div>
